@@ -90,7 +90,7 @@ apply" which may have affected this plan:
   - resource "tencentcloud_security_group" "default" {  
       - id          = "sg-qocdtmho" -> null  
         name        = "web accessibility"  
-        # (2 unchanged attributes hidden)  
+        \# (2 unchanged attributes hidden)  
     }  
 
 
@@ -105,7 +105,7 @@ are indicated with the following symbols:
 
 Terraform will perform the following actions:  
 
-  # tencentcloud_instance.web[0] will be created  
+  \# tencentcloud_instance.web[0] will be created  
   + resource "tencentcloud_instance" "web" {  
       + allocate_public_ip                      = true  
       + availability_zone                       = "ap-seoul-1"  
