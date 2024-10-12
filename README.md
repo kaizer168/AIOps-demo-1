@@ -224,3 +224,7 @@ tencentcloud_instance.web[0]: Creation complete after 28s [id=ins-93vuaved]
 
 Apply complete! Resources: 4 added, 0 changed, 0 destroyed.  
 PS F:\workspace\vscode\AIOPS-LOCAL\module_2\demo1>   
+
+![image](https://github.com/user-attachments/assets/30fface0-baf8-4ab2-8a71-33225a9298a5)
+
+
