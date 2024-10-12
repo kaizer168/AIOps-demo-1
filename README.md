@@ -1,20 +1,20 @@
 # AIOps-demo-1
 
 # cvm.tf  
-terraform {
-  required_providers {
-    tencentcloud = {
-      source = "tencentcloudstack/tencentcloud"
-    }
-  }
-}
+terraform {  
+  required_providers {  
+    tencentcloud = {  
+      source = "tencentcloudstack/tencentcloud"  
+    }  
+  }  
+}  
 
-# Configure the TencentCloud Provider
-provider "tencentcloud" {
-  secret_id  = "xxx"
-  secret_key = "xxx"
-  region     = "ap-seoul"
-}
+\# Configure the TencentCloud Provider  
+provider "tencentcloud" {  
+  secret_id  = "xxx"  
+  secret_key = "xxx"  
+  region     = "ap-seoul"  
+}  
 
 # Get availability zones
 data "tencentcloud_availability_zones" "default" {}
